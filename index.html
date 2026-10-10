@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Al-Amin | AI Product Manager & Systems Engineer</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Portfolio of Md. Al-Amin — AI Project & Product Manager at ACI PLC. Engineer-PM bridging applied machine learning, RAG pipelines, rapid prototyping, and enterprise product delivery.">
+  <meta name="keywords" content="AI Product Manager, Technical PM, Applied AI, RAG, LLM Fine-Tuning, Unsloth, Hugging Face, ACI PLC, Next.js, Python, Jira, Scrum Master">
+  <meta name="author" content="Md. Al-Amin">
+  
+  <meta property="og:title" content="Md. Al-Amin | AI Product Manager & Systems Engineer">
+  <meta property="og:description" content="Where technical precision drives product impact. Discover applied AI products, system architectures, and case studies.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/alamin.jpg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%237c3aed'/><text x='50%' y='55%' font-family='sans-serif' font-weight='bold' font-size='50' fill='white' text-anchor='middle' dominant-baseline='middle'>A</text></svg>">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Elements -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+  <div class="ambient-glow ambient-glow-3"></div>
+  <div class="matrix-grid"></div>
+
+  <!-- =========================================================================
+       Navigation Bar (Floating Capsule with Single-Line Links)
+       ========================================================================= -->
+  <header class="navbar" id="mainNavbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="brandLogoLink">
+        <div class="logo-badge">A</div>
+        <div class="brand-meta">
+          <span class="brand-name">Md. Al-Amin</span>
+          <span class="brand-status">
+            <span class="status-dot"></span>
+            AI Product Manager · ACI PLC
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links: Clean, Focused, Non-Wrapping -->
+      <nav class="nav-desktop">
+        <ul class="nav-links">
+          <li><a href="#projects" class="nav-link">Work</a></li>
+          <li><a href="#pipeline" class="nav-link">Architecture</a></li>
+          <li><a href="#consulting" class="nav-link">Consulting</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Color Theme" title="Toggle Light/Dark Theme">
+          <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-secondary btn-sm" id="navContactBtn">
+          Contact
+        </a>
+
+        <a href="assets/docs/Md_Al-Amin_CV.pdf" class="btn btn-primary btn-sm" id="navResumeBtn" target="_blank" download="Md_Al-Amin_CV.pdf">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          </svg>
+          CV
+        </a>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Mobile Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#hero" class="nav-link drawer-link">Overview</a>
+    <a href="#approach" class="nav-link drawer-link">Approach</a>
+    <a href="#pipeline" class="nav-link drawer-link">Architecture</a>
+    <a href="#projects" class="nav-link drawer-link">Selected Work</a>
+    <a href="#consulting" class="nav-link drawer-link">1:1 AI Consulting</a>
+    <a href="#skills" class="nav-link drawer-link">Skill Matrix</a>
+    <a href="#experience" class="nav-link drawer-link">Experience</a>
+    <a href="#credentials" class="nav-link drawer-link">Credentials</a>
+    <a href="#contact" class="nav-link drawer-link">Contact</a>
+    <a href="assets/docs/Md_Al-Amin_CV.pdf" class="btn btn-cyan btn-sm" download="Md_Al-Amin_CV.pdf">Download CV (PDF)</a>
+  </div>
+
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+  <section class="hero section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-pill">
+          <span class="pill-glow"></span>
+          <span class="pill-text">Applied AI & Technical Product Management</span>
+        </div>
+
+        <h1 class="hero-title">
+          Where <span class="text-gradient">Technical Precision</span> Drives <span class="text-gradient-cyan">Product Impact</span>.
+        </h1>
+
+        <p class="hero-description">
+          I manage applied AI products, conversational intelligence, and enterprise software at <strong>ACI PLC</strong>. Grounded in a Computer Science & Engineering degree and certified product governance, I bridge the divide between non-deterministic machine learning architectures and scalable commercial outcomes.
+        </p>
+
+        <!-- Positioning Callout -->
+        <div class="hero-differentiator-box">
+          <p class="differentiator-box-text">
+            💡 <strong>The Technical PM Edge:</strong> I don't treat machine learning as an opaque black box. From fine-tuning open weights with Unsloth and designing hybrid RAG retrieval to coding rapid feasibility prototypes, I ensure technical viability before committing quarterly engineering roadmaps.
+          </p>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary" id="heroViewProjectsBtn">
+            Explore Selected Work
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+          <a href="#approach" class="btn btn-secondary" id="heroHowIWorkBtn">
+            Product Philosophy
+          </a>
+          <button class="btn btn-secondary" id="copyEmailBtn" title="Click to copy email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2" stroke-width="2"/>
+              <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" stroke-width="2"/>
+            </svg>
+            Copy Email
+          </button>
+        </div>
+
+        <!-- Metric Badges Row -->
+        <div class="hero-stats-row">
+          <div class="stat-item">
+            <span class="stat-number" data-target="250" data-suffix="+">250+</span>
+            <span class="stat-label">Products Delivered</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">BSc CSE</span>
+            <span class="stat-label">Washington Accord</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">PAC™ & PPC™</span>
+            <span class="stat-label">Product School Certified</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">PMP & Agile</span>
+            <span class="stat-label">Delivery Governance</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual: Clean, Unobstructed Portrait Frame -->
+      <div class="hero-visual">
+        <div class="avatar-wrapper">
+          <div class="avatar-inner">
+            <img src="assets/images/alamin.jpg" alt="Md. Al-Amin - AI Product Manager" class="avatar-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: OPERATING PRINCIPLES & PRODUCT APPROACH
+       ========================================================================= -->
+  <section class="section" id="approach">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Operating Principles</span>
+        <h2 class="section-title">How I Approach <span class="text-gradient">Applied AI Products</span></h2>
+        <p class="section-subtitle">
+          Building intelligence into products requires navigating stochastic model behavior, latency trade-offs, and unit economics with strategic clarity.
+        </p>
+      </div>
+
+      <div class="principles-grid">
+        <!-- Principle 1 -->
+        <div class="principle-card">
+          <div class="principle-top">
+            <span class="principle-index">PRINCIPLE // 01</span>
+            <div class="principle-icon">⚡</div>
+          </div>
+          <h3 class="principle-title">De-Risking Through Working Code</h3>
+          <p class="principle-desc">
+            Speculative PRDs waste engineering sprints. When evaluating ambiguous AI opportunities, I build functional proof-of-concepts using modern developer toolchains (Claude Code, Antigravity, TRAE) to empirically validate feasibility, user retention, and latency constraints before committing team capacity.
+          </p>
+          <div class="principle-badges">
+            <span class="micro-badge">Feasibility Testing</span>
+            <span class="micro-badge">Fast Validation</span>
+            <span class="micro-badge">Hypothesis De-Risking</span>
+          </div>
+        </div>
+
+        <!-- Principle 2 -->
+        <div class="principle-card">
+          <div class="principle-top">
+            <span class="principle-index">PRINCIPLE // 02</span>
+            <div class="principle-icon">🧠</div>
+          </div>
+          <h3 class="principle-title">Applied ML & Retrieval Literacy</h3>
+          <p class="principle-desc">
+            Generative AI fails when treated as a black-box commodity. I work directly with vector search topologies, semantic rerankers (Cohere/BGE), and parameter-efficient fine-tuning (Unsloth, LoRA/QLoRA on Hugging Face). I track token budgets, inference memory, and hallucination rates with mathematical discipline.
+          </p>
+          <div class="principle-badges">
+            <span class="micro-badge">Hybrid RAG</span>
+            <span class="micro-badge">Unsloth LoRA</span>
+            <span class="micro-badge">Ragas Benchmarks</span>
+          </div>
+        </div>
+
+        <!-- Principle 3 -->
+        <div class="principle-card">
+          <div class="principle-top">
+            <span class="principle-index">PRINCIPLE // 03</span>
+            <div class="principle-icon">🤝</div>
+          </div>
+          <h3 class="principle-title">True Engineering Empathy & Rigor</h3>
+          <p class="principle-desc">
+            Having graduated in Computer Science with programming experience across Python, C++, and Laravel, I collaborate with engineers as a peer. I author clear API contracts, evaluate loss curves, and prioritize technical debt alongside business features without hand-waving.
+          </p>
+          <div class="principle-badges">
+            <span class="micro-badge">Zero Translation Loss</span>
+            <span class="micro-badge">API Contracts</span>
+            <span class="micro-badge">Architectural Alignment</span>
+          </div>
+        </div>
+
+        <!-- Principle 4 -->
+        <div class="principle-card">
+          <div class="principle-top">
+            <span class="principle-index">PRINCIPLE // 04</span>
+            <div class="principle-icon">📊</div>
+          </div>
+          <h3 class="principle-title">Disciplined Governance & Measurable ROI</h3>
+          <p class="principle-desc">
+            Speed without accountability is tech debt. Combining PMP methodologies and Product School analytics (PAC™, PPC™), I run tight sprint ceremonies, enforce clear acceptance criteria, and ensure every feature directly impacts business North Star metrics and stakeholder ROI.
+          </p>
+          <div class="principle-badges">
+            <span class="micro-badge">PAC™ Analytics</span>
+            <span class="micro-badge">PPC™ Prioritization</span>
+            <span class="micro-badge">PMP Governance</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Matrix -->
+      <div class="comparison-container">
+        <div class="comparison-header">
+          <h3 style="font-size: 1.45rem; margin-bottom: 0.5rem; color: var(--text-primary);">Why Industry Leaders Choose a Technical AI Product Manager</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Comparing typical industry profiles against Md. Al-Amin's integrated approach</p>
+        </div>
+        <div class="comparison-table-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Capability / Dimension</th>
+                <th style="width: 25%;">Traditional Product Manager</th>
+                <th style="width: 25%;">Pure ML / Software Engineer</th>
+                <th class="col-alamin" style="width: 25%;">Md. Al-Amin (Applied AI PM)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Idea Validation</strong></td>
+                <td><span class="cross-icon">✕</span> Writes lengthy PRDs; waits weeks for dev sprint</td>
+                <td><span class="check-icon">✓</span> Can build, but often detached from commercial validation</td>
+                <td class="col-alamin"><span class="check-icon">✓</span> Codes functional POCs early to validate with users and executives</td>
+              </tr>
+              <tr>
+                <td><strong>AI System Literacy</strong></td>
+                <td><span class="cross-icon">✕</span> Treats AI as a commodity API; overlooks token/latency limits</td>
+                <td><span class="check-icon">✓</span> Deep algorithm focus, often detached from unit economics</td>
+                <td class="col-alamin"><span class="check-icon">✓</span> Hands-on RAG, fine-tunes with Unsloth, benchmarks hallucination</td>
+              </tr>
+              <tr>
+                <td><strong>Engineering Alignment</strong></td>
+                <td><span class="cross-icon">✕</span> Frequent friction with devs on feasibility and estimation</td>
+                <td><span class="cross-icon">✕</span> Difficulty aligning with C-suite and marketing</td>
+                <td class="col-alamin"><span class="check-icon">✓</span> Trusted by developers for speaking native code; trusted by executives for ROI</td>
+              </tr>
+              <tr>
+                <td><strong>System Architecture</strong></td>
+                <td><span class="cross-icon">✕</span> Limited to UI/UX wireframes and user stories</td>
+                <td><span class="check-icon">✓</span> Deep architecture focus, sometimes over-engineered</td>
+                <td class="col-alamin"><span class="check-icon">✓</span> Balances technical debt, latency budgets, and time-to-market</td>
+              </tr>
+              <tr>
+                <td><strong>Delivery Governance</strong></td>
+                <td><span class="check-icon">✓</span> Good at Jira, but cannot evaluate technical blockers</td>
+                <td><span class="cross-icon">✕</span> Reluctant to manage documentation and timeline buffers</td>
+                <td class="col-alamin"><span class="check-icon">✓</span> PMP-trained, Scrum master, proactive risk register mitigation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: INTERACTIVE AI ARCHITECTURE & PIPELINE LAB
+       ========================================================================= -->
+  <section class="section pipeline-section" id="pipeline">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag cyan">Systems Blueprint</span>
+        <h2 class="section-title">How I Architect <span class="text-gradient-cyan">Applied AI</span> Pipelines</h2>
+        <p class="section-subtitle">
+          Click any stage of the pipeline to see how I reconcile technical systems design with product governance decisions.
+        </p>
+      </div>
+
+      <!-- Node Timeline Bar -->
+      <div class="pipeline-diagram">
+        <div class="pipeline-node active" data-stage="ingest" id="stageNode1">
+          <span class="node-number">01 // INGESTION</span>
+          <h4 class="node-title">Multi-Modal Data</h4>
+          <span class="node-tech">PDFs, SQL, OCR, Heuristics</span>
+        </div>
+
+        <div class="pipeline-node" data-stage="rag" id="stageNode2">
+          <span class="node-number">02 // RETRIEVAL</span>
+          <h4 class="node-title">Hybrid Vector RAG</h4>
+          <span class="node-tech">Qdrant, BM25, Cross-Encoder</span>
+        </div>
+
+        <div class="pipeline-node" data-stage="finetune" id="stageNode3">
+          <span class="node-number">03 // FINE-TUNING</span>
+          <h4 class="node-title">Domain Adaptation</h4>
+          <span class="node-tech">Unsloth, LoRA, Hugging Face</span>
+        </div>
+
+        <div class="pipeline-node" data-stage="guardrails" id="stageNode4">
+          <span class="node-number">04 // GOVERNANCE</span>
+          <h4 class="node-title">Guardrails & Eval</h4>
+          <span class="node-tech">Ragas, Intent Routing, Safety</span>
+        </div>
+
+        <div class="pipeline-node" data-stage="deploy" id="stageNode5">
+          <span class="node-number">05 // PRODUCTION</span>
+          <h4 class="node-title">Enterprise Surfaces</h4>
+          <span class="node-tech">Web, Flutter, ERP, Telemetry</span>
+        </div>
+      </div>
+
+      <!-- Dynamic Detailed Card for Active Node -->
+      <div class="pipeline-detail-card" id="pipelineDetailContainer">
+        <div>
+          <div class="detail-col-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#38bdf8">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            <span id="pipelineStageTitle">Stage 01: Multi-Modal Data Ingestion & Hygiene</span>
+          </div>
+          <p id="pipelineBlueprint" style="margin-bottom: 1.25rem; font-size: 0.96rem; line-height: 1.6; color: var(--text-secondary);">
+            Ingesting heterogeneous enterprise knowledge: Agricultural research PDFs, crop disease image repositories, weather APIs, and ERP relational databases. Applying chunking heuristics (hierarchical semantic chunking, 512 token chunks with 10% overlap).
+          </p>
+          <div style="font-weight: 700; font-size: 0.88rem; color: #a855f7; margin-bottom: 0.5rem;">TECHNOLOGIES & TOOLCHAIN:</div>
+          <div id="pipelineToolsList" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="micro-badge">Python</span>
+            <span class="micro-badge">Pandas</span>
+            <span class="micro-badge">LangChain Ingestion</span>
+            <span class="micro-badge">Pydantic</span>
+            <span class="micro-badge">OCR Pipeline</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="detail-col-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <span>The Product Manager’s Perspective</span>
+          </div>
+          <p id="pipelinePMRole" style="font-size: 0.96rem; color: var(--text-secondary); line-height: 1.6;">
+            Defining domain boundaries, metadata schemas, PII redaction rules, and data governance. Validating that training and retrieval datasets directly map to customer pain points rather than generic scrapes.
+          </p>
+
+          <div class="detail-metric-list" id="pipelineMetricsGrid">
+            <div class="metric-pill-box">
+              <div class="metric-pill-label">Data Cleaning Latency</div>
+              <div class="metric-pill-val">< 140ms/doc</div>
+            </div>
+            <div class="metric-pill-box">
+              <div class="metric-pill-label">Chunk Coherence Score</div>
+              <div class="metric-pill-val">94.2%</div>
+            </div>
+            <div class="metric-pill-box">
+              <div class="metric-pill-label">Ingestion Pipeline</div>
+              <div class="metric-pill-val">Automated Airflow</div>
+            </div>
+            <div class="metric-pill-box">
+              <div class="metric-pill-label">Schema Enforced</div>
+              <div class="metric-pill-val">JSON Schema + Pydantic</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Mini Terminal / POC Simulator -->
+      <div class="terminal-wrapper" id="pocSandbox">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="terminal-dot dot-red"></span>
+            <span class="terminal-dot dot-yellow"></span>
+            <span class="terminal-dot dot-green"></span>
+          </div>
+          <div class="terminal-title">
+            <span>⚡ alamin-pm-console (v2.5 — Interactive Sandbox)</span>
+          </div>
+          <div style="font-size: 0.75rem; color: #94a3b8; font-family: var(--font-mono);">bash</div>
+        </div>
+
+        <div class="terminal-chips">
+          <span style="font-size: 0.78rem; color: #94a3b8; align-self: center; margin-right: 0.3rem;">Run preset:</span>
+          <button class="terminal-chip" data-cmd="poc agro-gpt">⚡ poc agro-gpt</button>
+          <button class="terminal-chip" data-cmd="rag-eval">📊 rag-eval</button>
+          <button class="terminal-chip" data-cmd="diff">⚖️ diff pm-vs-eng</button>
+          <button class="terminal-chip" data-cmd="skills">🛠️ skills</button>
+          <button class="terminal-chip" data-cmd="whoami">👤 whoami</button>
+          <button class="terminal-chip" data-cmd="help">❓ help</button>
+        </div>
+
+        <div class="terminal-body" id="terminalOutput">
+          <div class="terminal-line"><span style="color:#10b981;">[SYSTEM INITIALIZED]</span> Welcome to Md. Al-Amin's Technical Portfolio Console.</div>
+          <div class="terminal-line">Role: <span style="color:#38bdf8;">AI Product Manager</span> | Focus: <span style="color:#c084fc;">Applied AI, RAG Architectures & LLM Fine-Tuning</span></div>
+          <div class="terminal-line">Type a command below or click any quick-run chip above. Type <span style="color:#38bdf8;">help</span> for reference.</div>
+        </div>
+
+        <div style="padding: 0.75rem 1.5rem; background: #0c111c; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+          <div class="terminal-prompt-row">
+            <span class="terminal-prompt-symbol">alamin@ai-pm:~$</span>
+            <input type="text" class="terminal-input" id="terminalInput" placeholder="Try 'poc agro-gpt' or 'rag-eval'..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: SELECTED WORK & CASE STUDIES
+       ========================================================================= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Case Studies</span>
+        <h2 class="section-title">Selected <span class="text-gradient">Products & Research</span></h2>
+        <p class="section-subtitle">
+          Over 10+ delivered products spanning enterprise AI, computer vision, B2B SaaS/ERP, and hardware IoT telemetry.
+        </p>
+      </div>
+
+      <!-- Project Filters -->
+      <div class="projects-filter-nav">
+        <button class="skill-tab-btn project-tab-btn active" data-filter="all">All Deliverables</button>
+        <button class="skill-tab-btn project-tab-btn" data-filter="ai">AI & Computer Vision</button>
+        <button class="skill-tab-btn project-tab-btn" data-filter="enterprise">SaaS & Enterprise ERP</button>
+        <button class="skill-tab-btn project-tab-btn" data-filter="research">Research & IoT</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- 1. ACI AgroGPT -->
+        <article class="project-card" data-type="ai">
+          <div class="project-card-header">
+            <span class="project-type-pill">Enterprise AI | Production</span>
+            <span class="micro-badge">ACI PLC</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">ACI AgroGPT: Agriculture AI Assistant</h3>
+            <div class="project-role-tag">
+              <span>★ AI Product Manager & POC Architect</span>
+            </div>
+            <p class="project-desc">
+              Domain-specific conversational AI assistant empowering agriculturalists with crop disease diagnosis, localized pest treatments, weather impact guidance, and advisory services.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Fast prototype validation with agronomists in 48h; scaled to multi-stage hybrid RAG with >94% domain precision, cutting advisory wait times by 85%.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Hybrid RAG</span>
+              <span class="micro-badge">Python</span>
+              <span class="micro-badge">Qdrant</span>
+              <span class="micro-badge">Unsloth</span>
+              <span class="micro-badge">FastAPI</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="agrogpt">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Yamaha Face Recognition -->
+        <article class="project-card" data-type="ai">
+          <div class="project-card-header">
+            <span class="project-type-pill">Computer Vision | Enterprise</span>
+            <span class="micro-badge">ACI Motors</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Yamaha Showroom Biometric Face Recognition</h3>
+            <div class="project-role-tag">
+              <span>★ Product Manager & Systems Analyst</span>
+            </div>
+            <p class="project-desc">
+              Automated edge facial recognition intelligence system deployed across ACI Motors Yamaha showrooms for instant customer identification, service history retrieval, and security.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Reduced customer check-in latency from 3 minutes to under 2 seconds; unified edge CCTV feeds with central CRM databases.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Computer Vision</span>
+              <span class="micro-badge">FaceNet</span>
+              <span class="micro-badge">Edge AI</span>
+              <span class="micro-badge">Jira</span>
+              <span class="micro-badge">CRM Integration</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="yamaha">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. DiaAI -->
+        <article class="project-card" data-type="ai">
+          <div class="project-card-header">
+            <span class="project-type-pill">Applied AI | Healthcare</span>
+            <span class="micro-badge">Mobile App</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">DiaAI: Intelligent Diabetic Companion</h3>
+            <div class="project-role-tag">
+              <span>★ AI Product Manager</span>
+            </div>
+            <p class="project-desc">
+              Predictive health companion calculating glycemic load, forecasting post-meal glucose spikes, and delivering proactive lifestyle adjustments to diabetic patients.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Architected clinical metric pipelines and supervised physician verification loops with 85% predictive alignment to empirical glucose charts.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Predictive ML</span>
+              <span class="micro-badge">Flutter</span>
+              <span class="micro-badge">Python</span>
+              <span class="micro-badge">Healthcare UX</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="diaai">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. AI Nutrical -->
+        <article class="project-card" data-type="ai">
+          <div class="project-card-header">
+            <span class="project-type-pill">Vision + LLM | Consumer</span>
+            <span class="micro-badge">Rapid POC</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">AI Nutrical: Visual Food Nutrition Scanner</h3>
+            <div class="project-role-tag">
+              <span>★ Technical PM & Solo Prototyper</span>
+            </div>
+            <p class="project-desc">
+              Scan any meal with a smartphone camera to instantly detect ingredients, estimate portion size, and return detailed macronutrient and calorie breakdowns.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Built the entire functional proof-of-concept in 72 hours, demonstrating market feasibility before engineering team allocation.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Multimodal AI</span>
+              <span class="micro-badge">Next.js</span>
+              <span class="micro-badge">Claude API</span>
+              <span class="micro-badge">OpenCV</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="nutrical">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Weather Impact on Business -->
+        <article class="project-card" data-type="ai">
+          <div class="project-card-header">
+            <span class="project-type-pill">Predictive AI | Enterprise</span>
+            <span class="micro-badge">B2B Analytics</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Weather Impact on Business (6-Month Forecast)</h3>
+            <div class="project-role-tag">
+              <span>★ Product Strategy & ML Planner</span>
+            </div>
+            <p class="project-desc">
+              Enterprise forecast engine correlating 6 months of climate anomaly models with SKU demand, supply chain delays, and retail commodity pricing.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Enabled supply chain managers to hedge against monsoon risks 60 days in advance, safeguarding corporate profit margins.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Time-Series ML</span>
+              <span class="micro-badge">Power BI</span>
+              <span class="micro-badge">Python</span>
+              <span class="micro-badge">Prophet</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="weather">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Lenden.store ERP -->
+        <article class="project-card" data-type="enterprise">
+          <div class="project-card-header">
+            <span class="project-type-pill enterprise">SaaS / ERP | B2B</span>
+            <span class="micro-badge">Lenden.store</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Lenden.store: Cloud ERP & POS for SMEs</h3>
+            <div class="project-role-tag">
+              <span>★ Product Manager & SDLC Lead</span>
+            </div>
+            <p class="project-desc">
+              All-in-one cloud enterprise management platform for small and medium retailers, offering real-time inventory synchronization, barcode POS, VAT billing, and accounting.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Managed full sprint delivery in Jira from database schema to production deployment across hundreds of active merchants.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Laravel</span>
+              <span class="micro-badge">React</span>
+              <span class="micro-badge">MySQL</span>
+              <span class="micro-badge">Agile/Scrum</span>
+              <span class="micro-badge">POS Hardware</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="lenden">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Research: Vehicle-to-Vehicle (V2V) Communication -->
+        <article class="project-card" data-type="research">
+          <div class="project-card-header">
+            <span class="project-type-pill research">Published Research | IoT</span>
+            <span class="micro-badge">Hardware Prototype</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Hybrid Vehicle-to-Vehicle (V2V) Protocol</h3>
+            <div class="project-role-tag">
+              <span>★ Lead Author & Systems Engineer</span>
+            </div>
+            <p class="project-desc">
+              Authored academic research on low-latency hybrid V2V collision warning systems. Designed a physical embedded hardware prototype, location tracking telemetry, and web dashboard.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Research Impact:</strong> Built functional physical hardware circuit + dataset + telemetry web app; proving real-time safety alert transmission under 50ms.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">C++</span>
+              <span class="micro-badge">RF Telemetry</span>
+              <span class="micro-badge">Node.js</span>
+              <span class="micro-badge">IoT Hardware</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="v2v">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. AI Music Mind -->
+        <article class="project-card" data-type="ai">
+          <div class="project-card-header">
+            <span class="project-type-pill">GenAI & Audio Intelligence</span>
+            <span class="micro-badge">Consumer AI</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">AI Music Mind: Generative Audio Platform</h3>
+            <div class="project-role-tag">
+              <span>★ Technical Product Manager & Prototyper</span>
+            </div>
+            <p class="project-desc">
+              Generative AI audio platform producing custom, royalty-free instrumental arrangements in 3 simple clicks conditioned on genre, mood, and tempo parameters.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Built functional zero-to-one prototype generating 30-second multi-track audio stems under 12 seconds with high user satisfaction.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">GenAI Audio</span>
+              <span class="micro-badge">Python FastAPI</span>
+              <span class="micro-badge">Next.js</span>
+              <span class="micro-badge">MusicGen</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="musicmind">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 9. ISP Billing & Network Infrastructure -->
+        <article class="project-card" data-type="enterprise">
+          <div class="project-card-header">
+            <span class="project-type-pill enterprise">Enterprise SaaS | Telecom</span>
+            <span class="micro-badge">Infrastructure</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">ISP Billing & Bandwidth Management Platform</h3>
+            <div class="project-role-tag">
+              <span>★ Product & System Analyst</span>
+            </div>
+            <p class="project-desc">
+              All-in-one cloud subscription billing and network management platform for internet service providers with automated MikroTik router bandwidth provisioning.
+            </p>
+            <div class="project-highlight-box">
+              ⚡ <strong>Commercial Impact:</strong> Automated 10,000+ monthly recurring subscriber payments, cutting accounting reconciliation overhead by 90% and eliminating manual line throttling.
+            </div>
+            <div class="project-tech-tags">
+              <span class="micro-badge">Laravel</span>
+              <span class="micro-badge">MikroTik API</span>
+              <span class="micro-badge">MySQL</span>
+              <span class="micro-badge">Redis Queues</span>
+              <span class="micro-badge">Billing Engine</span>
+            </div>
+            <div class="project-btn-row">
+              <button class="btn-case-study btn-open-modal" data-project="ispbilling">
+                View Deep Dive Case Study →
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: AI CONSULTANT — PERSONALIZED 1-ON-1 SESSIONS
+       ========================================================================= -->
+  <section class="section consulting-section" id="consulting">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag emerald">1-on-1 Strategic Advisory</span>
+        <h2 class="section-title">Personalized <span class="text-gradient">AI Consulting</span> Sessions</h2>
+        <p class="section-subtitle">
+          Direct, high-impact one-to-one advisory for founders, product managers, and engineering executives navigating applied AI feasibility, RAG architectures, and model economics.
+        </p>
+      </div>
+
+      <div class="consulting-grid">
+        <!-- Session Card 1 -->
+        <div class="consulting-card">
+          <span class="consulting-badge">RAPID ASSESSMENT</span>
+          <h3 class="consulting-title">30-Min AI Feasibility & POC Audit</h3>
+          <p class="consulting-desc">
+            Have an applied AI product idea? Avoid wasting 3 months of dev sprint capacity. We evaluate the core technical feasibility, token unit economics, and outline a rapid 48-hour POC strategy.
+          </p>
+          <ul class="consulting-features">
+            <li><span class="consulting-check">✓</span> <strong>Technical Reality Check:</strong> Model capabilities vs. business requirement audit</li>
+            <li><span class="consulting-check">✓</span> <strong>Build vs. Buy Evaluation:</strong> Commercial API vs open-source LLM guidance</li>
+            <li><span class="consulting-check">✓</span> <strong>Rapid POC Blueprint:</strong> Tools, frameworks, and architecture recommendation</li>
+            <li><span class="consulting-check">✓</span> <strong>Actionable Summary:</strong> Post-session summary with priority next steps</li>
+          </ul>
+          <div class="consulting-action-box">
+            <a href="#contact" class="btn btn-secondary consulting-btn" data-consult="feasibility">Book Feasibility Audit →</a>
+          </div>
+        </div>
+
+        <!-- Session Card 2 (Featured) -->
+        <div class="consulting-card featured">
+          <span class="consulting-badge featured">DEEP STRATEGY · MOST POPULAR</span>
+          <h3 class="consulting-title">60-Min RAG & Model Architecture Teardown</h3>
+          <p class="consulting-desc">
+            A comprehensive, deep-dive session dissecting your retrieval pipeline, fine-tuning roadmap, latency budgets, and hallucination guardrails to make your AI system production-ready.
+          </p>
+          <ul class="consulting-features">
+            <li><span class="consulting-check">✓</span> <strong>Retrieval Optimization:</strong> Dense + BM25 hybrid search & reranking teardown</li>
+            <li><span class="consulting-check">✓</span> <strong>Fine-Tuning Strategy:</strong> Unsloth / LoRA dataset curation & parameter tuning</li>
+            <li><span class="consulting-check">✓</span> <strong>Latency & Cost Engineering:</strong> vLLM caching, context window & p95 budgeting</li>
+            <li><span class="consulting-check">✓</span> <strong>Governance & Ragas Benchmark:</strong> Anti-hallucination evaluation loop setup</li>
+          </ul>
+          <div class="consulting-action-box">
+            <a href="#contact" class="btn btn-primary consulting-btn" data-consult="architecture">Book 1:1 Architecture Session →</a>
+          </div>
+        </div>
+
+        <!-- Session Card 3 -->
+        <div class="consulting-card">
+          <span class="consulting-badge">ONGOING ADVISORY</span>
+          <h3 class="consulting-title">Personalized AI PM Mentorship & Retainer</h3>
+          <p class="consulting-desc">
+            Tailored one-on-one coaching for aspiring and current Product Managers, or ongoing advisory for startups seeking an experienced fractional AI Product Lead to guide their sprints.
+          </p>
+          <ul class="consulting-features">
+            <li><span class="consulting-check">✓</span> <strong>Technical PM Mastery:</strong> Writing unambiguous PRDs for machine learning</li>
+            <li><span class="consulting-check">✓</span> <strong>Developer Collaboration:</strong> Speaking fluent code with senior ML researchers</li>
+            <li><span class="consulting-check">✓</span> <strong>Sprint Governance:</strong> Agile ceremonies & risk register management in Jira</li>
+            <li><span class="consulting-check">✓</span> <strong>Direct Async Access:</strong> Ongoing priority Slack / WhatsApp advisory support</li>
+          </ul>
+          <div class="consulting-action-box">
+            <a href="#contact" class="btn btn-secondary consulting-btn" data-consult="mentorship">Inquire for Advisory →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: SKILL MATRIX WITH AUTHENTIC LOGOS
+       ========================================================================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag emerald">Comprehensive Toolchain</span>
+        <h2 class="section-title">Technical & Product <span class="text-gradient">Skill Matrix</span></h2>
+        <p class="section-subtitle">
+          Every tool, framework, and methodology in my arsenal — paired with the actual product context in which I apply it.
+        </p>
+      </div>
+
+      <!-- Skills Category Navigation -->
+      <div class="skills-filter-nav">
+        <button class="skill-tab-btn active" data-category="all" id="skillTabAll">All Skills</button>
+        <button class="skill-tab-btn" data-category="ai" id="skillTabAI">Applied AI & ML</button>
+        <button class="skill-tab-btn" data-category="product" id="skillTabProduct">Product & Delivery</button>
+        <button class="skill-tab-btn" data-category="agents" id="skillTabAgents">Modern AI Coding Tools</button>
+        <button class="skill-tab-btn" data-category="engineering" id="skillTabEng">Full-Stack & Systems</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-grid" id="skillsGrid">
+
+        <!-- 1. Python -->
+        <div class="skill-card" data-category="ai engineering">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Python">
+              <svg viewBox="0 0 128 128">
+                <path fill="#387EB8" d="M63.5 0c-17.1 0-31.5 6.6-31.5 20.3v15.2h32v4.6H19.7C6.6 40.1 0 54.3 0 71.4c0 17.6 10.9 27.9 25.1 27.9h8.3v-12.7c0-14.7 12.3-26.9 27-26.9h31.5v-4.6h-4.6V20.3C87.3 6.6 77.2 0 63.5 0zm-13.8 9.3c3.8 0 6.9 3.1 6.9 6.9s-3.1 6.9-6.9 6.9-6.9-3.1-6.9-6.9 3.1-6.9 6.9-6.9z"/>
+                <path fill="#FFE052" d="M102.9 28.7h-8.3v12.7c0 14.7-12.3 26.9-27 26.9H36.1v4.6h4.6v34.8c0 13.7 10.1 20.3 23.8 20.3 17.1 0 31.5-6.6 31.5-20.3V92.5h-32v-4.6h44.3c13.1 0 19.7-14.2 19.7-31.3 0-17.6-10.9-27.9-25.1-27.9zm-24.6 80.7c-3.8 0-6.9-3.1-6.9-6.9s3.1-6.9 6.9-6.9 6.9 3.1 6.9 6.9-3.1 6.9-6.9 6.9z"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Core / ML</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Python</span>
+            <span class="skill-context">Primary language for ML prototyping, RAG pipelines, FastAPI backends, and data science scripting.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 95%;"></div></div>
+        </div>
+
+        <!-- 2. RAG (Retrieval-Augmented Generation) -->
+        <div class="skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="RAG Architecture">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#06b6d4">
+                <rect x="2" y="3" width="20" height="18" rx="3" stroke-width="2"/>
+                <path d="M7 8h10M7 12h6M7 16h8" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="17" cy="14" r="3" fill="#06b6d4" stroke="none"/>
+                <path d="M19 16l3 3" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Architecture</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">RAG Systems</span>
+            <span class="skill-context">Hybrid retrieval (Dense + BM25), semantic rerankers, contextual chunking, and hallucination guardrails.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 96%;"></div></div>
+        </div>
+
+        <!-- 3. LLM (Large Language Models) -->
+        <div class="skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="LLM">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#a855f7">
+                <circle cx="12" cy="12" r="3" stroke-width="2"/>
+                <path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Applied AI</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">LLM Architectures</span>
+            <span class="skill-context">Prompt engineering, structured JSON outputs, context-window optimization, and token economics management.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 94%;"></div></div>
+        </div>
+
+        <!-- 4. Unsloth -->
+        <div class="skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Unsloth AI">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="2"/>
+                <path d="M7 14c1.5 2 4.5 3 7 1M8 10h.01M14 10h.01M16 8l2-2M8 8L6 6" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 4v3" stroke="#f59e0b" stroke-width="2"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Fine-Tuning</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Unsloth AI</span>
+            <span class="skill-context">5x faster LLM fine-tuning using LoRA / QLoRA with 70% reduced VRAM on open-weights (Llama-3, Mistral).</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 90%;"></div></div>
+        </div>
+
+        <!-- 5. Hugging Face -->
+        <div class="skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Hugging Face">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" fill="#FFD21E"/>
+                <circle cx="9" cy="10" r="1.5" fill="#000"/>
+                <circle cx="15" cy="10" r="1.5" fill="#000"/>
+                <path d="M8 14.5c1.2 1.8 4.8 1.8 6 0" stroke="#000" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+                <path d="M3 14c1.5-1 3-1 4 1M21 14c-1.5-1-3-1-4 1" stroke="#000" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Ecosystem</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Hugging Face</span>
+            <span class="skill-context">Model hub deployment, dataset curation, Transformers pipeline, tokenizers, and model quantization.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 92%;"></div></div>
+        </div>
+
+        <!-- 6. Google AI Studio -->
+        <div class="skill-card" data-category="ai agents">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Google AI Studio">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" fill="url(#geminiGrad)"/>
+                <defs>
+                  <linearGradient id="geminiGrad" x1="2" y1="2" x2="22" y2="22">
+                    <stop stop-color="#4285F4"/>
+                    <stop offset="0.5" stop-color="#9B72CB"/>
+                    <stop offset="1" stop-color="#D96570"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <span class="skill-badge">Prototyping</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Google AI Studio</span>
+            <span class="skill-context">Multimodal prompt prototyping, Gemini system instructions calibration, and zero-shot benchmark testing.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 92%;"></div></div>
+        </div>
+
+        <!-- 7. Claude Code -->
+        <div class="skill-card" data-category="agents">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Claude Code">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="12" cy="12" r="3" fill="#D97706"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Agentic Dev</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Claude Code</span>
+            <span class="skill-context">Autonomous CLI coding agent for rapid POC iteration, automated refactoring, and full repository analysis.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 95%;"></div></div>
+        </div>
+
+        <!-- 8. Antigravity -->
+        <div class="skill-card" data-category="agents">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Antigravity">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="9" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4 2"/>
+                <circle cx="12" cy="12" r="4" fill="#7c3aed"/>
+                <path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="#06b6d4" stroke-width="2"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Agentic IDE</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Antigravity</span>
+            <span class="skill-context">DeepMind-engineered agentic coding workflows, skills authoring, autonomous tasks, and pairing.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 94%;"></div></div>
+        </div>
+
+        <!-- 9. Codex / OpenAI Codex -->
+        <div class="skill-card" data-category="agents">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="OpenAI Codex">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="2" fill="#10b981"/>
+              </svg>
+            </div>
+            <span class="skill-badge">AI Synthesis</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Codex Toolchain</span>
+            <span class="skill-context">Automating script generation, test coverage fixtures, and rapid API scaffolding.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 90%;"></div></div>
+        </div>
+
+        <!-- 10. Next.js -->
+        <div class="skill-card" data-category="engineering">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Next.js">
+              <svg viewBox="0 0 180 180" fill="none">
+                <mask id="nextMask" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="180">
+                  <circle cx="90" cy="90" r="90" fill="black"/>
+                </mask>
+                <g mask="url(#nextMask)">
+                  <circle cx="90" cy="90" r="90" fill="#000"/>
+                  <path d="M149.5 158.5L68 54H54v72h12.5V74.5l71.5 91.5a90 90 0 0011.5-7.5z" fill="white"/>
+                  <path d="M115 54h12.5v72H115z" fill="white"/>
+                </g>
+              </svg>
+            </div>
+            <span class="skill-badge">Full-Stack</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Next.js</span>
+            <span class="skill-context">Server-rendered AI interfaces, streaming responses, dynamic routes, and fast edge deployments.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 88%;"></div></div>
+        </div>
+
+        <!-- 11. React -->
+        <div class="skill-card" data-category="engineering">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="React">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#61DAFB">
+                <ellipse cx="12" cy="12" rx="10" ry="4.2" stroke-width="1.5"/>
+                <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(60 12 12)" stroke-width="1.5"/>
+                <ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(120 12 12)" stroke-width="1.5"/>
+                <circle cx="12" cy="12" r="1.8" fill="#61DAFB"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Frontend</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">React</span>
+            <span class="skill-context">Interactive dashboards, custom hook architectures, component states, and responsive consumer UIs.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 92%;"></div></div>
+        </div>
+
+        <!-- 12. Flutter -->
+        <div class="skill-card" data-category="engineering">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Flutter">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M14.5 2L3 13.5l3.5 3.5L21.5 2h-7z" fill="#02569B"/>
+                <path d="M14.5 13.5l-5 5 3.5 3.5 5-5h3.5L14.5 13.5z" fill="#0175C2"/>
+                <path d="M9.5 18.5l3.5 3.5h7l-7-7-3.5 3.5z" fill="#29B6F6"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Mobile</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Flutter & Dart</span>
+            <span class="skill-context">Cross-platform mobile delivery for field personnel, farmers, and healthcare patient apps.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 85%;"></div></div>
+        </div>
+
+        <!-- 13. Laravel & PHP -->
+        <div class="skill-card" data-category="engineering">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Laravel">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M3 7l8-4 8 4-8 4-8-4z" fill="#F05340"/>
+                <path d="M3 12l8 4 8-4M3 17l8 4 8-4" stroke="#F05340" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Backend / ERP</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Laravel (PHP)</span>
+            <span class="skill-context">Enterprise ERP solutions (Lenden.store), e-commerce platforms, queued workers, and relational DB logic.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 88%;"></div></div>
+        </div>
+
+        <!-- 14. C++ -->
+        <div class="skill-card" data-category="engineering">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="C++">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 2L3 7v10l9 5 9-5V7l-9-5z" fill="#00599C"/>
+                <path d="M11 9a4 4 0 100 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M15 11v2m-1-1h2M19 11v2m-1-1h2" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Systems</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">C++</span>
+            <span class="skill-context">Embedded microcontrollers, hardware telemetry (V2V prototype), algorithms, and low-level performance.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 84%;"></div></div>
+        </div>
+
+        <!-- 15. Jira -->
+        <div class="skill-card" data-category="product">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Jira">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M11.5 2A9.5 9.5 0 002 11.5h9.5V2z" fill="#0052CC"/>
+                <path d="M11.5 12.5H2A9.5 9.5 0 0011.5 22v-9.5z" fill="#2684FF"/>
+                <path d="M12.5 2v19.5A9.5 9.5 0 0022 12 9.5 9.5 0 0012.5 2z" fill="#0052CC"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Governance</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Jira Software</span>
+            <span class="skill-context">Sprint board architecture, epic decomposition, burndown velocity analytics, and release tracking.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 96%;"></div></div>
+        </div>
+
+        <!-- 16. Scrum Master & Agile -->
+        <div class="skill-card" data-category="product">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Scrum Master">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                <circle cx="12" cy="12" r="9" stroke-width="2"/>
+                <path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/>
+                <path d="M7 12a5 5 0 119.5 2" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Methodology</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Scrum Master</span>
+            <span class="skill-context">Leading daily standups, sprint planning, retrospectives, story pointing, and cross-team velocity cadence.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 95%;"></div></div>
+        </div>
+
+        <!-- 17. Risk Management -->
+        <div class="skill-card" data-category="product">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Risk Management">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b">
+                <path d="M12 2l8 4v6c0 5-3.5 9.5-8 10-4.5-.5-8-5-8-10V6l8-4z" stroke-width="2"/>
+                <path d="M12 8v5M12 16h.01" stroke-width="2.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">PMP Framework</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Risk Management</span>
+            <span class="skill-context">Proactive technical risk registers, fallback strategies, latency budgets, and compliance oversight.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 92%;"></div></div>
+        </div>
+
+        <!-- 18. Notion -->
+        <div class="skill-card" data-category="product">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Notion">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.459 4.208c.746.606 1.026.56 2.428.466l12.115-.84c1.12-.093 1.399.28 1.12.933l-2.054 13.906c-.187 1.12-.653 1.493-1.68 1.586l-12.488.747c-1.027.093-1.4-.28-1.214-1.213L4.46 4.208zm3.64.933l-1.306 9.799c-.094.653.093.84.746.746l10.826-.746.933-7.747c.094-.653-.187-.84-.746-.747L8.099 5.141z"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Documentation</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Notion</span>
+            <span class="skill-context">Living PRDs, technical roadmaps, stakeholder alignment hubs, and engineering knowledge wikis.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 95%;"></div></div>
+        </div>
+
+        <!-- 19. Google Workspace -->
+        <div class="skill-card" data-category="product">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Google Workspace">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="8" height="8" rx="2" fill="#4285F4"/>
+                <rect x="13" y="3" width="8" height="8" rx="2" fill="#34A853"/>
+                <rect x="3" y="13" width="8" height="8" rx="2" fill="#FBBC05"/>
+                <rect x="13" y="13" width="8" height="8" rx="2" fill="#EA4335"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Enterprise</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Google Workspace</span>
+            <span class="skill-context">Stakeholder decks, automated spreadsheet pipelines, enterprise collaboration, and executive reporting.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 94%;"></div></div>
+        </div>
+
+        <!-- 20. Bolt.new / TRAE / NotebookLM -->
+        <div class="skill-card" data-category="agents">
+          <div class="skill-card-top">
+            <div class="skill-logo-box" title="Bolt & TRAE">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#f43f5e">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="skill-badge">Rapid POC</span>
+          </div>
+          <div class="skill-info">
+            <span class="skill-name">Bolt, TRAE & NotebookLM</span>
+            <span class="skill-context">Rapid full-stack scaffolding in minutes; turning raw research into synthesis notes with NotebookLM.</span>
+          </div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width: 94%;"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: CAREER JOURNEY & EXPERIENCE TIMELINE
+       ========================================================================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Career Trajectory</span>
+        <h2 class="section-title">Professional <span class="text-gradient">Experience</span></h2>
+        <p class="section-subtitle">
+          From software development and IT coordination to managing enterprise ERPs and applied AI projects at ACI PLC.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Role 1: Current -->
+        <div class="timeline-item active">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">01/2026 — PRESENT</div>
+            <h3 class="timeline-role">Product Manager (AI Project Manager)</h3>
+            <div class="timeline-company">ACI PLC — MIS, AI Team | Dhaka, Bangladesh</div>
+            <ul class="timeline-bullets">
+              <li>Manage AI product lifecycle and project portfolio from opportunity discovery through prototyping to production delivery.</li>
+              <li>Build rapid prototypes with modern AI tools (Claude Code, Antigravity, Bolt, TRAE) to validate technical and commercial viability.</li>
+              <li>Drive AI initiatives including <strong>ACI AgroGPT</strong> (agricultural conversational assistant) and <strong>Face Recognition</strong> for ACI Motors (Yamaha).</li>
+              <li>Collaborate with ML engineers and business units to define retrieval pipelines, fine-tuning schedules, and sprint backlogs.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">02/2025 — 12/2025 (11 mos)</div>
+            <h3 class="timeline-role">Assistant Manager — IT</h3>
+            <div class="timeline-company">TISS Corporation Ltd. (China-Bangladesh Joint Venture) | Dhaka</div>
+            <ul class="timeline-bullets">
+              <li>Customized Active eCommerce platform and internal Business Process Applications (BPA) to accelerate cross-border operations.</li>
+              <li>Planned and distributed sprint work across cross-functional engineering teams, facilitating daily standups.</li>
+              <li>Bridged business needs and technical delivery to keep production releases on track.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">10/2024 — 02/2025 (Contractual)</div>
+            <h3 class="timeline-role">Software Development Coordinator (Assistant PM)</h3>
+            <div class="timeline-company">Bangladesh Software Development | Dhaka</div>
+            <ul class="timeline-bullets">
+              <li>Coordinated the full lifecycle development of new CRM and ERP products engineered specifically for SME merchants.</li>
+              <li>Conducted system analysis and requirement engineering directly with clients to author structured user stories and acceptance criteria.</li>
+              <li>Designed daily Scrum routines and distributed sprint tasks; contributed to business development.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 4 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">01/2024 — 09/2024 (9 mos)</div>
+            <h3 class="timeline-role">Jr. Software Engineer & Business Representative</h3>
+            <div class="timeline-company">CODETREE | Dhaka</div>
+            <ul class="timeline-bullets">
+              <li>Developed an e-commerce website with an integrated management system.</li>
+              <li>Collaborated with senior engineers on the development and scaling of a SaaS product.</li>
+              <li>Represented the company in client meetings and handled technical requirement discovery.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 5 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">12/2019 — 11/2020 (1 yr)</div>
+            <h3 class="timeline-role">IT Support Executive (Remote)</h3>
+            <div class="timeline-company">Movistar Australia | Remote</div>
+            <ul class="timeline-bullets">
+              <li>Delivered technical support and conducted product demonstrations for Australian enterprise clients.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: CREDENTIALS & ACADEMIC FOUNDATION
+       ========================================================================= -->
+  <section class="section" id="credentials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag cyan">Verified Credentials</span>
+        <h2 class="section-title">Education & <span class="text-gradient-cyan">Certifications</span></h2>
+        <p class="section-subtitle">
+          Anchored by an accredited Computer Science & Engineering degree and international product management credentials.
+        </p>
+      </div>
+
+      <div class="credentials-grid">
+
+        <!-- Degree -->
+        <div class="credential-card">
+          <div class="cred-icon">🎓</div>
+          <div>
+            <h4 class="cred-name">BSc in Computer Science & Engineering</h4>
+            <div class="cred-issuer">IUBAT (Washington Accord Accredited)</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Graduated 2025 | CGPA: 3.23 / 4.00 | Focus on Algorithms, ML & Embedded Systems</p>
+          </div>
+        </div>
+
+        <!-- Product School PAC -->
+        <div class="credential-card">
+          <div class="cred-icon">📈</div>
+          <div>
+            <h4 class="cred-name">Product Analytics Certification (PAC™)</h4>
+            <div class="cred-issuer">Product School, San Francisco</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Cohort metrics, funnel optimization, quantitative retention analysis, and A/B testing.</p>
+          </div>
+        </div>
+
+        <!-- Product School PPC -->
+        <div class="credential-card">
+          <div class="cred-icon">🎯</div>
+          <div>
+            <h4 class="cred-name">Product Prioritization Certificate (PPC™)</h4>
+            <div class="cred-issuer">Product School, San Francisco</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">RICE scoring, Kano model, opportunity solution trees, and ROI-driven roadmapping.</p>
+          </div>
+        </div>
+
+        <!-- PMP -->
+        <div class="credential-card">
+          <div class="cred-icon">📋</div>
+          <div>
+            <h4 class="cred-name">PMP® Certification Training</h4>
+            <div class="cred-issuer">Master of Project Academy</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Predictive, agile, and hybrid project delivery frameworks with earned value management.</p>
+          </div>
+        </div>
+
+        <!-- HP LIFE Critical Thinking in AI Era -->
+        <div class="credential-card">
+          <div class="cred-icon">🤖</div>
+          <div>
+            <h4 class="cred-name">Critical Thinking in the AI Era</h4>
+            <div class="cred-issuer">HP LIFE</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Evaluating AI bias, hallucinations, commercial liability, and ethical model integration.</p>
+          </div>
+        </div>
+
+        <!-- Open University PMO -->
+        <div class="credential-card">
+          <div class="cred-icon">🏛️</div>
+          <div>
+            <h4 class="cred-name">Project Governance & PMO</h4>
+            <div class="cred-issuer">The Open University, UK</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Enterprise governance models, resource allocation, and program management offices.</p>
+          </div>
+        </div>
+
+        <!-- Full Stack MERN -->
+        <div class="credential-card">
+          <div class="cred-icon">💻</div>
+          <div>
+            <h4 class="cred-name">Full-Stack Development (MERN & LAMP)</h4>
+            <div class="cred-issuer">Programming Hero & Shikhbo.ai</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Hands-on production web engineering with React, Node, Express, MongoDB, and Laravel.</p>
+          </div>
+        </div>
+
+        <!-- Leadership BNCC -->
+        <div class="credential-card">
+          <div class="cred-icon">🎖️</div>
+          <div>
+            <h4 class="cred-name">Cadet Corporal — Army Wing</h4>
+            <div class="cred-issuer">Bangladesh National Cadet Corps (BNCC)</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Media & Publication In-charge | Certified leadership, crisis resilience, and discipline.</p>
+          </div>
+        </div>
+
+        <!-- Agile & Scrum Master -->
+        <div class="credential-card">
+          <div class="cred-icon">⚡</div>
+          <div>
+            <h4 class="cred-name">Agile Project Management & Scrum Master</h4>
+            <div class="cred-issuer">HP LIFE & Project Governance Foundations</div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem;">Sprint cadence, backlog grooming, velocity tracking, risk mitigation, and cross-functional Agile ceremony governance.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION: CONTACT & INITIATE CONVERSATION
+       ========================================================================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <!-- Contact Info Column -->
+        <div class="contact-info-col">
+          <span class="section-tag emerald">Get In Touch</span>
+          <h2 style="font-size: 2.2rem; line-height: 1.2; color: var(--text-primary);">
+            Let's Discuss <span class="text-gradient">Applied AI Products</span>
+          </h2>
+          <p style="font-size: 1.05rem; color: var(--text-secondary);">
+            Open to exploratory conversations with product leaders, engineering executives, and forward-thinking founders looking for a Technical Product Manager with hands-on AI systems capability.
+          </p>
+
+          <div class="contact-detail-items">
+            <div class="contact-detail-row">
+              <div class="contact-icon-box">✉️</div>
+              <div>
+                <div style="font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-mono);">DIRECT EMAIL</div>
+                <a href="mailto:alamin01.corporate@gmail.com" style="color: var(--text-primary); font-weight: 700;">alamin01.corporate@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-box">📞</div>
+              <div>
+                <div style="font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-mono);">MOBILE & WHATSAPP</div>
+                <a href="tel:+8801888563996" style="color: var(--text-primary); font-weight: 700;">+880 1888 563996</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-box">📍</div>
+              <div>
+                <div style="font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-mono);">LOCATION</div>
+                <span style="color: var(--text-primary); font-weight: 700;">Nikunja-2, Dhaka-1229, Bangladesh</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 0.8rem; margin-top: 1rem; flex-wrap: wrap;">
+            <a href="https://linkedin.com/in/md-al-amin-9447253a9" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              LinkedIn Profile ↗
+            </a>
+            <a href="https://github.com/Alamin-dev01" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              GitHub Repositories ↗
+            </a>
+            <a href="assets/docs/Md_Al-Amin_CV.pdf" class="btn btn-primary btn-sm" download="Md_Al-Amin_CV.pdf">
+              Download CV (PDF) ↓
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div>
+          <form class="contact-form" id="portfolioContactForm" action="https://formsubmit.co/alamin01.corporate@gmail.com" method="POST">
+            <!-- Spam Bot Protection -->
+            <input type="text" name="_honey" style="display:none">
+            <!-- Form Configuration -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" id="formSubmitSubject" value="New Portfolio Inquiry for Md. Al-Amin">
+
+            <div class="form-group">
+              <label for="contactName" class="form-label">Your Name</label>
+              <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Your Email</label>
+              <input type="email" id="contactEmail" name="email" class="form-input" placeholder="name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message or Project Inquiry</label>
+              <textarea id="contactMessage" name="message" class="form-textarea" placeholder="Tell me about your product challenge, role opening, or collaboration..." required></textarea>
+            </div>
+
+            <!-- Interactive Status Banner -->
+            <div class="form-status-msg" id="formStatusMsg" role="alert"></div>
+
+            <button type="submit" class="btn btn-primary" id="sendMessageSubmitBtn" style="width: 100%; margin-top: 0.5rem;">
+              Send Message Directly
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        © 2026 <strong>Md. Al-Amin</strong>. AI Product Manager & Systems Engineer.
+      </div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/md-al-amin-9447253a9" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/Alamin-dev01" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="mailto:alamin01.corporate@gmail.com" class="social-link" title="Email Al-Amin">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL: DEEP DIVE CASE STUDY
+       ========================================================================= -->
+  <div class="modal-backdrop" id="projectModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <span class="project-type-pill" id="modalBadge">Enterprise AI</span>
+          <h3 id="modalTitle" style="margin-top: 0.5rem; font-size: 1.4rem; color: var(--text-primary);">Project Title</h3>
+        </div>
+        <button class="modal-close-btn" id="closeModalBtn" aria-label="Close Case Study">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #ef4444; font-size: 0.92rem; text-transform: uppercase; margin-bottom: 0.4rem; font-family: var(--font-mono); font-weight: 700;">The Problem & Market Need</h4>
+          <p id="modalProblem" style="font-size: 0.98rem; color: var(--text-secondary); line-height: 1.6;"></p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #0284c7; font-size: 0.92rem; text-transform: uppercase; margin-bottom: 0.4rem; font-family: var(--font-mono); font-weight: 700;">The Solution & Product Design</h4>
+          <p id="modalSolution" style="font-size: 0.98rem; color: var(--text-secondary); line-height: 1.6;"></p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #7c3aed; font-size: 0.92rem; text-transform: uppercase; margin-bottom: 0.4rem; font-family: var(--font-mono); font-weight: 700;">My Dual Role: PM & Technical Architect</h4>
+          <p id="modalRole" style="font-size: 0.98rem; color: var(--text-secondary); line-height: 1.6;"></p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #d97706; font-size: 0.92rem; text-transform: uppercase; margin-bottom: 0.4rem; font-family: var(--font-mono); font-weight: 700;">Technical Architecture & Pipeline</h4>
+          <p id="modalArchitecture" style="font-size: 0.98rem; color: var(--text-secondary); line-height: 1.6;"></p>
+        </div>
+
+        <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 12px; padding: 1.25rem;">
+          <h4 style="color: #059669; font-size: 0.92rem; text-transform: uppercase; margin-bottom: 0.3rem; font-family: var(--font-mono); font-weight: 700;">Business Impact & Metrics</h4>
+          <p id="modalImpact" style="font-size: 0.98rem; color: var(--text-primary); line-height: 1.6; font-weight: 600;"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Feedback -->
+  <div class="toast-notice" id="toastNotice">
+    <span style="font-size: 1.2rem;">✓</span>
+    <span id="toastText">Action completed successfully!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
