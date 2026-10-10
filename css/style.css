@@ -1518,6 +1518,46 @@ code, .code-tag {
   border: none;
 }
 
+.consulting-price-tag {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.85rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  width: fit-content;
+}
+
+[data-theme="light"] .consulting-price-tag {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.price-amount {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.consulting-card.featured .price-amount {
+  background: var(--gradient-ai);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.price-period {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 .consulting-title {
   font-size: 1.35rem;
   font-weight: 800;
@@ -2029,6 +2069,13 @@ code, .code-tag {
     padding: 2.5rem 2rem;
   }
 
+  .consulting-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
   .consulting-grid {
     grid-template-columns: 1fr;
   }

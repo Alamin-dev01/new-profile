@@ -718,9 +718,21 @@ function initConsultingActions() {
   const nameInput = document.getElementById('contactName');
 
   const sessionTemplates = {
-    feasibility: "Hi Al-Amin, I'd like to book a 30-Min AI Feasibility & POC Audit session. We are exploring an applied AI product concept and want to evaluate model feasibility, unit economics, and rapid POC scope.",
-    architecture: "Hi Al-Amin, I'd like to book a 60-Min 1:1 RAG & Model Architecture Teardown session. We want to deep-dive into our retrieval pipeline, latency budgeting, fine-tuning strategy, and production guardrails.",
-    mentorship: "Hi Al-Amin, I'm inquiring about your Personalized AI PM Mentorship / Advisory Retainer. We would love to discuss ongoing advisory support for our product roadmap and ML sprint governance."
+    feasibility: "Hi Al-Amin, I'd like to book an AI Feasibility & POC Audit session ($50 / session). We are exploring an applied AI product concept and want to evaluate model feasibility, token unit economics, and rapid POC scope.",
+    architecture: "Hi Al-Amin, I'd like to book a RAG & Model Architecture Teardown session ($20 / hour). We want to deep-dive into our retrieval pipeline, latency budgeting, fine-tuning strategy, and production guardrails.",
+    mentorship: "Hi Al-Amin, I'm inquiring about your Personalized AI PM Mentorship & Retainer (Custom charge). We would love to discuss ongoing advisory support for our product roadmap and ML sprint governance.",
+    vibecoding: "Hi Al-Amin, I'd like to enroll in your Vibe Coding Short Course ($200). Please share upcoming cohort schedules, onboarding details, and curriculum overview.",
+    career: "Hi Al-Amin, I'd like to schedule a Technical Career Consultancy session ($150). I come from a technical background and am looking for your strategic guidance to transition into AI / Technical Product Management.",
+    corporate: "Hi Al-Amin, our organization is interested in booking Organizational IT Team Custom Training ($80 / day). We would like to upskill our software engineering team on internal RAG pipelines and modern AI tooling."
+  };
+
+  const subjectTitles = {
+    feasibility: "Consulting Request: AI Feasibility & POC Audit ($50)",
+    architecture: "Consulting Request: RAG & Architecture Teardown ($20/hr)",
+    mentorship: "Consulting Request: AI PM Mentorship & Retainer (Custom)",
+    vibecoding: "Course Enrollment: Vibe Coding Short Course ($200)",
+    career: "Consulting Request: Technical Career Consultancy ($150)",
+    corporate: "Enterprise Request: Organizational IT Team Training ($80/day)"
   };
 
   consultButtons.forEach((btn) => {
@@ -730,10 +742,8 @@ function initConsultingActions() {
         messageInput.value = sessionTemplates[type];
       }
       const subjectInput = document.getElementById('formSubmitSubject');
-      if (subjectInput) {
-        if (type === 'feasibility') subjectInput.value = "Consulting Request: 30-Min AI Feasibility Audit";
-        if (type === 'architecture') subjectInput.value = "Consulting Request: 60-Min RAG & Architecture Teardown";
-        if (type === 'mentorship') subjectInput.value = "Consulting Request: AI PM Mentorship / Advisory Retainer";
+      if (subjectInput && subjectTitles[type]) {
+        subjectInput.value = subjectTitles[type];
       }
       const contactSection = document.getElementById('contact');
       if (contactSection) {

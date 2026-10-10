@@ -42,11 +42,14 @@ Unlike traditional product managers, I bridge the divide between non-determinist
 
 ---
 
-## 💼 Personalized 1-on-1 AI Consulting
+## 💼 Personalized AI Consulting, Programs & Training
 
-* **30-Min AI Feasibility & POC Audit**: Rapid validation of model capabilities, token unit economics, and 48-hour POC strategy.
-* **60-Min RAG & Architecture Teardown**: Deep-dive into retrieval pipelines, fine-tuning roadmaps, latency budgets, and guardrails.
-* **AI PM Mentorship & Retainer**: Personalized 1-on-1 coaching for PMs and fractional advisory for AI startups.
+1. **AI Feasibility & POC Audit** (`$50 / session`): Rapid validation of model capabilities, token unit economics, and 48-hour POC strategy.
+2. **RAG & Model Architecture Teardown** (`$20 / hour`): Comprehensive teardown of retrieval pipelines, fine-tuning roadmaps, latency budgets, and guardrails.
+3. **Personalized AI PM Mentorship & Retainer** (`Custom Charge`): Tailored 1-on-1 coaching for technical PMs and fractional advisory for AI teams.
+4. **Vibe Coding Short Course** (`$200`): Intensive masterclass on AI-native development velocity using Cursor, Claude Code, Codex, and AI Studio.
+5. **Technical Career Consultancy** (`$150`): Strategic 1-on-1 career transition roadmapping for professionals from any technical background aiming for AI PM.
+6. **Organizational IT Team Custom Training** (`$80 / day`): Bespoke on-site/remote training for enterprise engineering teams adopting internal RAG & AI tooling.
 
 ---
 
